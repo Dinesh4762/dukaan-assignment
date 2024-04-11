@@ -3,7 +3,7 @@ import TableRow from "./TableRow";
 
 const Transaction = () => {
   return (
-    <div className="px-8 w-full flex flex-col gap-3">
+    <div className="px-8  flex flex-col gap-3">
       {/* heading */}
       <p className="text-xl font-medium">Transactions | This Month</p>
       {/* buttons */}
@@ -86,8 +86,8 @@ const Transaction = () => {
           </div>
         </div>
         {/* table */}
-        <div className="overflow-x-auto h-fit">
-          <table className="overflow-x-auto w-full tracking-normal">
+        <div className="overflow-x-auto">
+          <table className="min-w-full tracking-normal">
             <tr className="bg-[#F2F2F2] text-[#808080] font-medium text-nowrap">
               <td className="px-3 py-[10px]">Order ID</td>
               <td className="px-3 py-[10px]">Status</td>
