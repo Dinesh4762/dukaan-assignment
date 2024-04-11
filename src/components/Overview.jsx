@@ -2,7 +2,7 @@ import React from 'react'
 
 const Overview = () => {
   return (
-    <div className="w-full px-8 flex flex-col gap-5">
+    <div className="w-full px-5 flex flex-col gap-5">
       {/* first div */}
       <div className='flex justify-between items-center'>
         <span className="text-xl font-medium">Overview</span>

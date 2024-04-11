@@ -3,7 +3,7 @@ import TableRow from "./TableRow";
 
 const Transaction = () => {
   return (
-    <div className="px-8  flex flex-col gap-3">
+    <div className="px-5 flex flex-col gap-4">
       {/* heading */}
       <p className="text-xl font-medium">Transactions | This Month</p>
       {/* buttons */}
@@ -16,10 +16,10 @@ const Transaction = () => {
         </button>
       </div>
       {/* table */}
-      <div className="flex flex-col gap-5 bg-white rounded-md p-2 ">
+      <div className="flex flex-col gap-5 bg-white rounded-md p-2">
         <div className="flex justify-between">
           {/* search */}
-          <div className="flex items-center gap-2 px-4 w-full max-w-[300px] text-[#808080] rounded border">
+          <div className="flex items-center gap-2 px-4 w-[150px] sm:grow sm:max-w-[300px] text-[#808080] rounded border">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

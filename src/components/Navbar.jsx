@@ -1,6 +1,6 @@
-export default function Navbar() {
+export default function Navbar({setSidebar}) {
   return (
-    <nav className="z-20 sticky top-0 left-0 w-full flex bg-white p-2 items-center justify-between gap-2 px-4 py-2 sm:gap-4 border-b">
+    <nav className="z-20 sticky top-0 left-0 w-full flex bg-white p-2 items-center justify-between gap-3  px-4 py-2 sm:gap-4 border-b">
       {/* first div */}
       <div className="flex sm:grow gap-2 sm:gap-3 items-center text-center">
         <svg
@@ -10,6 +10,7 @@ export default function Navbar() {
           stroke-width="1.5"
           stroke="currentColor"
           className="w-6 h-6 block lg:hidden"
+          onClick={()=> setSidebar(true)}
         >
           <path
             stroke-linecap="round"
