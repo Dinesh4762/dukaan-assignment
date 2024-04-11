@@ -290,7 +290,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         </div>
       </aside>
       <div
-        className="bg-green-300/50 w-[calc(100%)] self-stretch lg:hidden z-[120]"
+        className="w-[calc(100%)] self-stretch lg:hidden z-[120]"
         onClick={() => setSidebar(false)}
       ></div>
     </div>
