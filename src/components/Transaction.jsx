@@ -86,8 +86,8 @@ const Transaction = () => {
           </div>
         </div>
         {/* table */}
-        <div className="overflow-x-auto w-full">
-          <table className="overflow-x-scroll w-full tracking-normal">
+        <div className="overflow-x-auto h-fit">
+          <table className="overflow-x-auto w-full tracking-normal">
             <tr className="bg-[#F2F2F2] text-[#808080] font-medium text-nowrap">
               <td className="px-3 py-[10px]">Order ID</td>
               <td className="px-3 py-[10px]">Status</td>
@@ -113,7 +113,7 @@ const Transaction = () => {
               orderId={"#281209"}
               status={"Processing"}
               transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
+              refundDate={"Tomorrow, 8:45 PM"}
               amount={"₹1125.00"}
             />
             <TableRow
@@ -140,55 +140,6 @@ const Transaction = () => {
             <TableRow
               orderId={"#281209"}
               status={"successful"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
-              transId={"TRX123456"}
-              refundDate={"Today, 8:45 PM"}
-              amount={"₹1125.00"}
-            />
-            <TableRow
-              orderId={"#281209"}
-              status={"Processing"}
               transId={"TRX123456"}
               refundDate={"Today, 8:45 PM"}
               amount={"₹1125.00"}
